@@ -1,0 +1,64 @@
+
+.footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 40px;
+  border-top: 1px solid #eee;
+}
+.carousel-inner{
+  box-shadow: 0 0 30px black;
+}
+header{
+    background-image: url("../img/header-back.jpg");
+    background-size: cover;
+    text-align: center;
+}
+/* #carouselExampleCaptions{
+  padding-top: 40px;
+  padding-bottom: 40px;
+} */
+.container-fluid{
+  padding:0;
+}
+#brand{
+  max-width: 60px;
+}
+.navbar {
+  background-color: #292b2c!important;
+}
+#tcolumnlayout {
+  padding-top: 20px;
+}
+#tcolumnlayout p{
+  text-align: justify;
+  font-size: 15px;
+}
+.carImg{
+  padding-top: 15px;
+}
+@media (min-width: 768px) {
+  .navbar-nav {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .navbar-nav .nav-item {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 auto;
+        -ms-flex: 1 0 auto;
+            flex: 1 0 auto;
+  }
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .masthead,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
