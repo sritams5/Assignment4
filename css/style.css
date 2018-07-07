@@ -66,12 +66,12 @@ header{
         -ms-flex: 1 0 auto;
             flex: 1 0 auto;
   }
-  .fetImg_odd{
+  /*.fetImg_odd{
     padding-left:40px; 
   }
   .fetImg_even{
     padding-right:40px; 
-  }
+  }*/
 }
 @media screen and (max-width: 768px) {
   .display-3 {
