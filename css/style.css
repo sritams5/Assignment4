@@ -1,5 +1,6 @@
 body{
   background-color: #292b2c;
+  font-family: sans-serif;
 }
 .footer {
   padding-top: 40px;
@@ -67,10 +68,10 @@ header{
             flex: 1 0 auto;
   }
   /*.fetImg_odd{
-    padding-left:40px; 
+    padding-left:40px;
   }
   .fetImg_even{
-    padding-right:40px; 
+    padding-right:40px;
   }*/
 }
 @media screen and (max-width: 768px) {
@@ -88,3 +89,26 @@ header{
     padding-left: 0;
   }
 }
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+
+  display: flex;
+  align-items: center;
+}
+#videoframe{
+   border: 2px solid green;
+   border-radius:4px;
+}
+.thicker {
+    font-weight: 600;
+}
+@media (max-width: 900px)  {
+      body {
+        font-size: 10px!important;
+      }
+    }
+.media{
+    background-color: rgba(0,0,0,.05);
+    margin: 4px;
+    border-radius: 4px;
+  }
